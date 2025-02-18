@@ -1,0 +1,6 @@
+#!/bin/sh
+# Drop Cursor co-author trailers so commits stay attributed to you only.
+msg=$1
+tmp=${msg}.strip
+grep -v -i '^Co-authored-by:.*cursor' "$msg" >"$tmp" && mv "$tmp" "$msg"
+exit 0

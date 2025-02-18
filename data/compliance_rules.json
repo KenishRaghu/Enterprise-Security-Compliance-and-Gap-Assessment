@@ -1,0 +1,14 @@
+{
+  "rules": [
+    {"rule_id": "A.9.4.3", "check_key": "password_min_length", "description": "Password policy enforces minimum length (>= 12)", "severity": "HIGH"},
+    {"rule_id": "A.8.20", "check_key": "firewall_enabled", "description": "Host firewall is enabled", "severity": "HIGH"},
+    {"rule_id": "A.9.2.1", "check_key": "guest_disabled", "description": "Guest interactive access disabled", "severity": "MEDIUM"},
+    {"rule_id": "A.8.16", "check_key": "smbv1_disabled", "description": "Legacy SMBv1 disabled where applicable", "severity": "HIGH"},
+    {"rule_id": "A.12.6.1", "check_key": "auto_update_enabled", "description": "Automatic security updates enabled", "severity": "MEDIUM"},
+    {"rule_id": "A.8.5", "check_key": "screen_lock_timeout", "description": "Screen lock within 15 minutes", "severity": "MEDIUM"},
+    {"rule_id": "A.10.1.1", "check_key": "disk_encryption", "description": "Full-disk encryption active", "severity": "HIGH"},
+    {"rule_id": "A.8.20.2", "check_key": "remote_desktop_exposure", "description": "Remote desktop / screen sharing hardened", "severity": "HIGH"},
+    {"rule_id": "A.8.7", "check_key": "antivirus_running", "description": "Malware protection present", "severity": "MEDIUM"},
+    {"rule_id": "A.12.4.1", "check_key": "audit_logging", "description": "Security audit logging enabled", "severity": "LOW"}
+  ]
+}
